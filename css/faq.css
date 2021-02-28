@@ -1,0 +1,10 @@
+@charset "utf-8";
+#content{margin-top: -40px;}
+#content .wrap{width: 1200px;margin: 0 auto;color: #5c5c5c;}
+#content .wrap .title{text-align: center;line-height: 60px;}
+#content .wrap .title h1{font-size: 24px;font-weight: normal;}
+#content .wrap .title h1 span{font-weight: bold;}
+#content .wrap ul{}
+#content .wrap ul li{padding: 30px 20px;}
+#content .wrap ul li h3{font-size: 18px;padding-bottom: 20px;color: #5e889e;}
+#content .wrap ul li .sub{font-size: 14px;line-height: 1.2;}

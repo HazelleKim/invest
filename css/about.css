@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+#sec_01{margin-top: -40px;}
+#sec_01 .wrap{width: 1200px;margin: 0 auto;text-align: center;}
+#sec_01 .wrap article{}
+#sec_01 .wrap article .title{}
+#sec_01 .wrap article .title p{font-size: 24px;text-transform: uppercase;color: #5c5c5c;line-height: 50px;}
+#sec_01 .wrap article .title p span{font-weight:bolder}
+#sec_01 .wrap article ul li > div{margin: 20px 10px 40px;}
+#sec_01 .wrap article ul{}
+#sec_01 .wrap article ul > li .text{width: calc(100% / 12 * 8 - 20px);height: auto;text-align: left;}
+#sec_01 .wrap article ul > li .text p{padding-bottom: 30px; line-height: 1.2;}
+#sec_01 .wrap article ul > li:first-child .text{float: left;}
+#sec_01 .wrap article ul > li:first-child .text p{padding: 15px 0;}
+#sec_01 .wrap article ul > li:last-child .text{float: right;}
+#sec_01 .wrap article ul > li:last-child .text p{}
+
+
+#sec_01 .wrap article ul > li .image{background-repeat: no-repeat;height: 300px;background-size: contain;background-position: 50% 50%;}
+#sec_01 .wrap article ul > li:first-child .image{width: calc(100% / 12 * 4 - 20px);float: right;}
+#sec_01 .wrap article ul > li:first-child .image{background-image: url(../img/sub/plant.png);}
+#sec_01 .wrap article ul > li:last-child .image{}
+#sec_01 .wrap article ul > li:last-child .image{width: calc(100% / 12 * 4 - 20px);float:left;}
+#sec_01 .wrap article ul > li:last-child .image{background-image: url(../img/sub/certificate.png);}
+#sec_01 .wrap article ul > li:last-child .image{}
+
+
+#sec_01 .wrap article ul::after{clear: both;content: "";display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
